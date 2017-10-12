@@ -898,4 +898,8 @@ asmlinkage long sys_copy_file_range(int fd_in, loff_t __user *off_in,
 
 asmlinkage long sys_mlock2(unsigned long start, size_t len, int flags);
 
+/*CSE306*/
+asmlinkage long sys_hello(void);
+
+asmlinkage long sys_hello_name(char *name, int namelen, char *msg, int msglen);
 #endif
