@@ -338,6 +338,7 @@
 #CSE306 Part... :)
 329 64 hello            sys_hello
 330 64 hello_name       sys_hello_name
+331 64 print_tree     sys_print_tree
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
